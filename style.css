@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Rubik;
+}
+
+body {
+    background-image: url("assets/SpongebobBackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.profile {
+    margin-top: 30px;
+    margin-left: 80px;
+    width: fit-content;
+    padding: 8px;
+    /* Pineapple Color Below*/
+    /*background-color: rgba(253, 166, 61, 0.7);*/
+    /* Squidward House Color Below*/
+    /*background-color: rgba(49,111,163, 0.7);*/
+    /* Pineapple Leaf Color Below*/
+    /*background-color: rgba(121,167,61, 0.7);*/
+    /* Road Color Below*/
+    /*background-color: rgba(64,88,98, 0.6);*/
+    /* Bottom Right*/
+    /*background-color: rgba(42,92,161, 0.2);*/
+    /*Current*/
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(42,92,161, 0);
+    font-size: 150%;
+}
+
+.column2 {
+    background-color: rgba(42,92,161, 0.2);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+    height: fit-content;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+#nameDisplay {
+    color:rgba(42,92,161, 1);
+}
+
+img {
+	border-radius: 90%;
+}
+
+i {
+    color: rgb(42,92,161);
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+i:hover {
+    color: rgb(141, 86, 27);
+    transition: 0.25s;
+}
